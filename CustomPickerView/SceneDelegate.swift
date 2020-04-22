@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CustomPickerView
 //
-//  Created by Stronk on 22.04.2020.
+//  Created by iOS Warrior on 22.04.2020.
 //  Copyright © 2020 Practice. All rights reserved.
 //
 

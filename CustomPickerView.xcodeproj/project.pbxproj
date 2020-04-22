@@ -13,6 +13,8 @@
 		F7C1FA9324505AEF00A7E4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C1FA9124505AEF00A7E4B5 /* Main.storyboard */; };
 		F7C1FA9524505AF800A7E4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7C1FA9424505AF800A7E4B5 /* Assets.xcassets */; };
 		F7C1FA9824505AF800A7E4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7C1FA9624505AF800A7E4B5 /* LaunchScreen.storyboard */; };
+		F7C1FAA02450642500A7E4B5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C1FA9F2450642500A7E4B5 /* Model.swift */; };
+		F7C1FAA22450986E00A7E4B5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F7C1FAA12450986E00A7E4B5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F7C1FA9424505AF800A7E4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7C1FA9724505AF800A7E4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7C1FA9924505AF800A7E4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C1FA9F2450642500A7E4B5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F7C1FAA12450986E00A7E4B5 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				F7C1FA8B24505AEF00A7E4B5 /* AppDelegate.swift */,
 				F7C1FA8D24505AEF00A7E4B5 /* SceneDelegate.swift */,
 				F7C1FA8F24505AEF00A7E4B5 /* ViewController.swift */,
+				F7C1FA9F2450642500A7E4B5 /* Model.swift */,
 				F7C1FA9124505AEF00A7E4B5 /* Main.storyboard */,
+				F7C1FAA12450986E00A7E4B5 /* .gitignore */,
 				F7C1FA9424505AF800A7E4B5 /* Assets.xcassets */,
 				F7C1FA9624505AF800A7E4B5 /* LaunchScreen.storyboard */,
 				F7C1FA9924505AF800A7E4B5 /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C1FAA22450986E00A7E4B5 /* .gitignore in Resources */,
 				F7C1FA9824505AF800A7E4B5 /* LaunchScreen.storyboard in Resources */,
 				F7C1FA9524505AF800A7E4B5 /* Assets.xcassets in Resources */,
 				F7C1FA9324505AEF00A7E4B5 /* Main.storyboard in Resources */,
@@ -141,6 +148,7 @@
 				F7C1FA9024505AEF00A7E4B5 /* ViewController.swift in Sources */,
 				F7C1FA8C24505AEF00A7E4B5 /* AppDelegate.swift in Sources */,
 				F7C1FA8E24505AEF00A7E4B5 /* SceneDelegate.swift in Sources */,
+				F7C1FAA02450642500A7E4B5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +293,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TU29VDT7MM;
+				DEVELOPMENT_TEAM = 6GH74F9Y62;
 				INFOPLIST_FILE = CustomPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.CustomPickerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mefs.CustomPickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +314,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TU29VDT7MM;
 				INFOPLIST_FILE = CustomPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.me.CustomPickerView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mefss.CustomPickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
